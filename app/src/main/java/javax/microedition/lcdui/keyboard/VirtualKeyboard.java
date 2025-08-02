@@ -177,7 +177,7 @@ public class VirtualKeyboard implements Overlay, Runnable {
 	private Canvas target;
 	private View overlayView;
 	private boolean obscuresVirtualScreen;
-	private boolean visible = true;
+	private boolean visible = false;
 	private int layoutEditMode = LAYOUT_EOF;
 	private int editedIndex;
 	private float offsetX;
